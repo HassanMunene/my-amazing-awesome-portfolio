@@ -107,7 +107,7 @@
             </Step>
 		</div>
 	</section>
-	<section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gao-16 sm:gap-20 md:gap-24 relative">
+	<section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
 		<div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4">
 			<h6 class="text-large sm:text-xl md:text-2xl">Want to know more?</h6>
 			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
@@ -131,7 +131,7 @@
 		<h5 class={"text-2xl sm:text-3xl font-semibold text-center poppins"}>
 			The <span class="text-violet-400">Complete</span> Package
 		</h5>
-		<div class="flex flex-col overflow-x-scroll gap-10 max-w-[800] mx-auto w-full">
+		<div class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full">
 			<table class="bg-white text-slate-700 rounded text-center">
                 <thead class={"border-b border-solid border-slate-200  "}>
                     <tr class="">
@@ -152,7 +152,7 @@
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
                         <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">
-                        	Critical Thought
+                        	Critical Thinking
                         </td>
                         <td><i class="fa-solid fa-xmark text-slate-500" /></td>
                         <td><i class="fa-solid fa-check text-slate-500" /></td>
@@ -183,6 +183,5 @@
 		<div class="mx-auto -mt-12 italic sm:hidden opacity-50">
 			<p>Scroll to see more &rarr;</p>
 		</div>
-		<p class="mx-auto">So why not invest?</p>
 	</section>
 </main>
